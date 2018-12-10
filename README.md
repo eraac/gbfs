@@ -3,7 +3,7 @@
 Implementation in Golang of the General Bikeshare Feed Specification (GBFS)
 
 # Usage
-``go get gitlab.com/Eraac/gbfs``
+``go get github.com/Eraac/gbfs``
 
 ## TODO
 
