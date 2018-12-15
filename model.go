@@ -199,13 +199,17 @@ type (
 		// Optional
 		NumDocksDisabled int `json:"num_docks_disabled"`
 
-		// IsInstalled station currently on the street
+		// IsInstalled the station currently on the street
 		// Required
-		IsInstalled bool `json:"is_installed"`
+		IsInstalled Boolean `json:"is_installed"`
 
-		// IsRenting bikes currently bikes
+		// IsRenting currently renting bikes (even if the station is empty, if it is set to allow rentals this value should be 1)
 		// Required
-		IsRenting bool `json:"is_renting"`
+		IsRenting Boolean `json:"is_renting"`
+
+		// IsReturning accepting bike returns (if a station is full but would allow a return if it was not full then this value should be 1)
+		// Required
+		IsReturning Boolean `json:"is_returning"`
 
 		// LastReported POSIX timestamp indicating the last time this station reported its status to the backend
 		// Required
