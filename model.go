@@ -455,6 +455,10 @@ type (
 )
 
 func (j *JSON) IsOutdated() bool {
+	if j.TTL == 0 {
+		return true
+	}
+
 	n := time.Now().Unix()
 
 	return j.LastUpdated + int64(j.TTL) < n
