@@ -1,0 +1,168 @@
+{
+    "last_updated": 1545053713,
+    "ttl": 10,
+    "data": {
+        "stations": [
+            {
+                "station_id": "74",
+                "external_id": "83b33e8d-bf8c-4a2a-8ee3-942834af27b4",
+                "name": "Laguna St at Hayes St",
+                "short_name": "SF-J21",
+                "lat": 37.776434819204745,
+                "lon": -122.42624402046204,
+                "region_id": 3,
+                "rental_methods": [
+                    "CREDITCARD",
+                    "KEY"
+                ],
+                "capacity": 27,
+                "rental_url": "http://app.fordgobike.com/Z6gL/SiFlGfIOTF?station_id=74",
+                "has_kiosk": true
+            },
+            {
+                "station_id": "3",
+                "external_id": "1b13a386-c5f4-42cc-bc3b-ded95982e090",
+                "name": "Powell St BART Station (Market St at 4th St)",
+                "short_name": "SF-G27",
+                "lat": 37.78637526861584,
+                "lon": -122.40490436553954,
+                "region_id": 3,
+                "rental_methods": [
+                    "CREDITCARD",
+                    "KEY"
+                ],
+                "capacity": 35,
+                "rental_url": "http://app.fordgobike.com/Z6gL/SiFlGfIOTF?station_id=3",
+                "has_kiosk": true
+            },
+            {
+                "station_id": "4",
+                "external_id": "a00d04e6-0159-466a-b3ab-23f9550f418c",
+                "name": "Cyril Magnin St at Ellis St",
+                "short_name": "SF-G26",
+                "lat": 37.78588062694133,
+                "lon": -122.4089150084319,
+                "region_id": 3,
+                "rental_methods": [
+                    "CREDITCARD",
+                    "KEY"
+                ],
+                "capacity": 35,
+                "rental_url": "http://app.fordgobike.com/Z6gL/SiFlGfIOTF?station_id=4",
+                "has_kiosk": true
+            },
+            {
+                "station_id": "5",
+                "external_id": "a1e0b4b2-2c5c-4201-a78c-9e8a2152ab4e",
+                "name": "Powell St BART Station (Market St at 5th St)",
+                "short_name": "SF-H26",
+                "lat": 37.783899357084934,
+                "lon": -122.40844488143921,
+                "region_id": 3,
+                "rental_methods": [
+                    "CREDITCARD",
+                    "KEY"
+                ],
+                "capacity": 35,
+                "rental_url": "http://app.fordgobike.com/Z6gL/SiFlGfIOTF?station_id=5",
+                "has_kiosk": true
+            },
+            {
+                "station_id": "6",
+                "external_id": "23a2bad4-3ea1-4545-87eb-acbee3efccfc",
+                "name": "The Embarcadero at Sansome St",
+                "short_name": "SF-A27",
+                "lat": 37.80477,
+                "lon": -122.403234,
+                "region_id": 3,
+                "rental_methods": [
+                    "CREDITCARD",
+                    "KEY"
+                ],
+                "capacity": 23,
+                "rental_url": "http://app.fordgobike.com/Z6gL/SiFlGfIOTF?station_id=6",
+                "has_kiosk": true
+            },
+            {
+                "station_id": "7",
+                "external_id": "9e3efff1-3d42-46fd-8206-4021277ba6c2",
+                "name": "Frank H Ogawa Plaza",
+                "short_name": "OK-L5",
+                "lat": 37.8045623549303,
+                "lon": -122.27173805236816,
+                "region_id": 12,
+                "rental_methods": [
+                    "CREDITCARD",
+                    "KEY"
+                ],
+                "capacity": 35,
+                "rental_url": "http://app.fordgobike.com/Z6gL/SiFlGfIOTF?station_id=7",
+                "has_kiosk": true
+            },
+            {
+                "station_id": "8",
+                "external_id": "7c7ac914-40e5-426d-b9c4-f12b1a556be8",
+                "name": "The Embarcadero at Vallejo St",
+                "short_name": "SF-C28-1",
+                "lat": 37.799953,
+                "lon": -122.398525,
+                "region_id": 3,
+                "rental_methods": [
+                    "CREDITCARD",
+                    "KEY"
+                ],
+                "capacity": 23,
+                "rental_url": "http://app.fordgobike.com/Z6gL/SiFlGfIOTF?station_id=8",
+                "has_kiosk": true
+            },
+            {
+                "station_id": "9",
+                "external_id": "75f6691a-df0a-4d7a-8b35-e5ffe33add4f",
+                "name": "Broadway at Battery St",
+                "short_name": "SF-C28-2",
+                "lat": 37.79857210846256,
+                "lon": -122.40086898207666,
+                "region_id": 3,
+                "rental_methods": [
+                    "CREDITCARD",
+                    "KEY"
+                ],
+                "capacity": 19,
+                "rental_url": "http://app.fordgobike.com/Z6gL/SiFlGfIOTF?station_id=9",
+                "has_kiosk": true
+            },
+            {
+                "station_id": "10",
+                "external_id": "e5b0aca4-2ce6-49f8-82e8-8eed6e004147",
+                "name": "Washington St at Kearny St",
+                "short_name": "SF-D27",
+                "lat": 37.79539293725452,
+                "lon": -122.4047702550888,
+                "region_id": 3,
+                "rental_methods": [
+                    "CREDITCARD",
+                    "KEY"
+                ],
+                "capacity": 31,
+                "rental_url": "http://app.fordgobike.com/Z6gL/SiFlGfIOTF?station_id=10",
+                "has_kiosk": true
+            },
+            {
+                "station_id": "11",
+                "external_id": "faad71bc-21e3-4ce1-8b84-63f782a91d1b",
+                "name": "Davis St at Jackson St",
+                "short_name": "SF-D28",
+                "lat": 37.79728,
+                "lon": -122.398436,
+                "region_id": 3,
+                "rental_methods": [
+                    "CREDITCARD",
+                    "KEY"
+                ],
+                "capacity": 35,
+                "rental_url": "http://app.fordgobike.com/Z6gL/SiFlGfIOTF?station_id=11",
+                "has_kiosk": true
+            }
+        ]
+    }
+}

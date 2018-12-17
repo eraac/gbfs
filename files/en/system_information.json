@@ -1,0 +1,18 @@
+{
+    "last_updated": 1545053672,
+    "ttl": 10,
+    "data": {
+        "system_id": "BA",
+        "language": "en",
+        "name": "Ford GoBike",
+        "short_name": "Ford GoBike",
+        "operator": "Motivate International, Inc.",
+        "url": "http://www.fordgobike.com",
+        "purchase_url": "",
+        "start_date": "2017-05-14",
+        "phone_number": "855-480-BIKE",
+        "email": "",
+        "license_url": "",
+        "timezone": "US/Pacific"
+    }
+}

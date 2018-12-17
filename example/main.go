@@ -20,14 +20,14 @@ func main() {
 		panic(err)
 	}
 
-	si, err := c.StationsInformation()
+	si, err := c.StationsStatus()
 
 	if err != nil {
 		panic(err)
 	}
 
 	for _, s := range si.Stations {
-		fmt.Printf("Name: %s\n", s.Name)
+		fmt.Printf("Is renting: %t\n", s.IsRenting)
 	}
 
 	fmt.Printf("Last updated: %d\n", si.JSON.LastUpdated)
