@@ -46,6 +46,7 @@ func (c *HTTPClient) Get(key FeedKey) (j *JSON, err error) {
 	if res, err = c.client.Do(req); err != nil {
 		return
 	}
+	defer func() {_ = res.Body.Close()}()
 
 	if res.StatusCode != http.StatusOK {
 		if res.StatusCode == http.StatusNotFound {
