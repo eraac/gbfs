@@ -1,0 +1,15 @@
+{
+    "last_updated": 1546265790,
+    "ttl": 10,
+    "data": {
+        "alerts": [
+            {
+                "alert_id": "1",
+                "type": "SYSTEM_CLOSURE",
+                "summary": "❄️La saison 2018 est terminée❄️",
+                "description": "La saison 2018 de Bixi s'est terminée le 15 novembre. Les vélos ne sont plus disponibles à la location. Surveillez notre retour en avril 2019.",
+                "last_updated": 1545319980
+            }
+        ]
+    }
+}

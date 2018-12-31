@@ -469,3 +469,45 @@ func TestHTTPClient_SystemHours_notFound(t *testing.T) {
 		t.Errorf("expected ErrFeedNotExist got %s", err)
 	}
 }
+
+func TestHTTPClient_SystemAlerts(t *testing.T) {
+	c := getHTTPClient(t, serverHTTPOptions...)
+	if c == nil {
+		t.FailNow()
+	}
+
+	sa, err := c.SystemAlerts()
+	if err != nil {
+		t.Fatalf("expected nil got %s", err)
+	}
+
+	if s := len(sa.Alerts); s != 1 {
+		t.Errorf("expected 1 got %d", s)
+	}
+
+	if id := sa.Alerts[0].AlertID; id != "1" {
+		t.Errorf("expected '1' got '%s'", id)
+	}
+
+	if s := sa.Alerts[0].Type; AlertType(s) != AlertTypeSystemClosure {
+		t.Errorf("expected '%s' got '%s'", AlertTypeSystemClosure, s)
+	}
+
+	if sa.JSON.TTL != 10 {
+		t.Errorf("expected 10 got %d", sa.JSON.TTL)
+	}
+}
+
+func TestHTTPClient_SystemAlerts_notFound(t *testing.T) {
+	c := getHTTPClient(t, serverHTTPOptions...)
+	if c == nil {
+		t.FailNow()
+	}
+
+	c.urls[FeedKeySystemAlerts] = fmt.Sprintf("%s/en/404.json", server.URL)
+
+	_, err := c.SystemAlerts()
+	if err != ErrFeedNotExist {
+		t.Errorf("expected ErrFeedNotExist got %s", err)
+	}
+}
