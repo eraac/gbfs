@@ -3,7 +3,6 @@ package gbfs
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"net/http"
 )
 
@@ -56,14 +55,9 @@ func (c *HTTPClient) Get(key FeedKey) (j *JSON, err error) {
 		return j, fmt.Errorf("invalid status code (%d)", res.StatusCode)
 	}
 
-	bs, err := ioutil.ReadAll(res.Body)
-	if err != nil {
-		return
-	}
-
 	j = new(JSON)
 
-	return j, json.Unmarshal(bs, j)
+	return j, json.NewDecoder(res.Body).Decode(j)
 }
 
 func (c *HTTPClient) AutoDiscovery() (g *GBFS, err error) {
