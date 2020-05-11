@@ -13,12 +13,12 @@ Basic example
 package main
 
 import (
-	"fmt"
-	"net/http"
-	"time"
+    "fmt"
+    "net/http"
+    "time"
 
-	"github.com/Eraac/gbfs"
-	"github.com/Eraac/gbfs/spec/v2.0"
+    "github.com/Eraac/gbfs"
+    "github.com/Eraac/gbfs/spec/v2.0"
 )
 
 c, err := gbfs.NewHTTPClient(
