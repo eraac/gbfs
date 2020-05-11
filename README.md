@@ -23,7 +23,7 @@ import (
 
 c, err := gbfs.NewHTTPClient(
     gbfs.HTTPOptionBaseURL("https://gbfs.fordgobike.com/gbfs"), // required
-    gbfs.HTTPOptionLanguage("en"), // optional if the provider doesn't don't specify the language in the URL
+    gbfs.HTTPOptionLanguage("en"), // optional if the provider doesn't specify the language in the URL
     gbfs.HTTPOptionClient(http.Client{Timeout: 10 * time.Second}), // optional, set a custom http client
 )
 if err != nil {
