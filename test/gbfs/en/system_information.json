@@ -1,0 +1,18 @@
+{
+  "data":{
+    "purchase_url": "",
+    "license_url": "",
+    "name": "Bay Wheels",
+    "url": "http://www.baywheels.com",
+    "phone_number": "855-480-BIKE",
+    "start_date": "2017-05-14",
+    "email": "",
+    "language": "en",
+    "system_id": "BA",
+    "operator": "Motivate International, Inc.",
+    "timezone": "US/Pacific",
+    "short_name": "Bay Wheels"
+  },
+  "last_updated": 1589230640,
+  "ttl": 300
+}
