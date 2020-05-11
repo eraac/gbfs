@@ -19,15 +19,15 @@ func main() {
 		panic(err)
 	}
 
-	var ss gbfsspec.FeedStationInformation
+	var si gbfsspec.FeedStationInformation
 
-	if err := c.Get(gbfsspec.FeedKeyStationInformation, &ss); err != nil {
+	if err := c.Get(gbfsspec.FeedKeyStationInformation, &si); err != nil {
 		panic(err)
 	}
 
-	for _, s := range ss.Data.Stations {
+	for _, s := range si.Data.Stations {
 		fmt.Printf("Station name: %s\n", s.Name)
 	}
 
-	fmt.Printf("Last updated: %s\n", ss.LastUpdated.ToTime().String())
+	fmt.Printf("Last updated: %s\n", si.LastUpdated.ToTime().String())
 }
